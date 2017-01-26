@@ -1,0 +1,19 @@
+{
+  "name": "bunnypro/zenziva",
+  "description": "Zenziva Client Service.",
+  "keywords": ["zenziva", "zenziva client", "zenziva laravel"],
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Bunnypro\\Zenziva\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  }
+}
