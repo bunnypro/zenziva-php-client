@@ -90,7 +90,7 @@ class Client
     {
         $query = [
             'userkey' => $this->user,
-            'passley' => $this->pass,
+            'passkey' => $this->pass,
         ];
 
         if ($this->service == 'center') {
