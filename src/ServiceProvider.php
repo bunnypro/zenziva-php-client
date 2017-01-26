@@ -12,10 +12,10 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function register()
     {
-        $this->app->bind(Client::class, function($app) {
+        $this->app->bind(SmsClient::class, function($app) {
             $config = @$app['config']['zenziva'] ?: [];
 
-            return new Client($config);
+            return new SmsClient($config);
         });
 
         $this->publishes([

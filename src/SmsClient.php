@@ -5,7 +5,7 @@ use Bunnypro\Zenziva\Exceptions\ServiceNotDefined;
 use Bunnypro\Zenziva\Exceptions\UserNotDefinedException;
 use GuzzleHttp\Client as GuzzleHttpClient;
 
-class Client
+class SmsClient
 {
     const URI = 'http://%s.zenziva.net/apps/%s.php';
 
