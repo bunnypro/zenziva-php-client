@@ -41,6 +41,11 @@ class Client
         $this->service = (array_key_exists('service', $config) ? $config['service'] : $this->service);
     }
 
+    public static function create(array $config = [])
+    {
+        return static::__construct($config);
+    }
+
     public function service($service)
     {
         $this->service = $service;
