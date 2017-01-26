@@ -13,13 +13,13 @@ class ServiceProvider extends BaseServiceProvider
     public function register()
     {
         $this->app->bind(Client::class, function($app) {
-            $config = @$app['service']['zenziva'] ?: [];
+            $config = @$app['config']['zenziva'] ?: [];
 
             return new Client($config);
         });
 
         $this->publishes([
-            __DIR__.'/config/services.php', config_path('zenziva.php'),
+            __DIR__.'/config/zenziva.php', config_path('zenziva.php'),
         ]);
     }
 }
