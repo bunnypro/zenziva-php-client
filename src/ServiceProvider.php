@@ -19,7 +19,7 @@ class ServiceProvider extends BaseServiceProvider
         });
 
         $this->publishes([
-            __DIR__.'/config/zenziva.php', config_path('zenziva.php'),
+            __DIR__.'/config/zenziva.php' => config_path('zenziva.php'),
         ]);
     }
 }
