@@ -38,7 +38,7 @@ class Client
 
         $this->pass = (array_key_exists('pass', $config) ? $config['pass'] : null);
 
-        $this->service = (array_key_exists('service', $config) ? $config['service'] : null);
+        $this->service = (array_key_exists('service', $config) ? $config['service'] : $this->service);
     }
 
     public function service($service)
