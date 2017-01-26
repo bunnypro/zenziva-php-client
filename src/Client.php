@@ -43,7 +43,7 @@ class Client
 
     public static function create(array $config = [])
     {
-        return static::__construct($config);
+        return new static($config);
     }
 
     public function service($service)
