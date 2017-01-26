@@ -1,5 +1,5 @@
 {
-  "name": "bunnypro/zenziva",
+  "name": "bunnypro/zenziva-php-client",
   "description": "Zenziva Client Service.",
   "keywords": ["zenziva", "zenziva client", "zenziva laravel"],
   "license": "MIT",
