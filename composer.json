@@ -5,6 +5,12 @@
   "license": "MIT",
   "type": "library",
   "homepage": "https://packages.bunnypro.com/",
+  "authors": [
+    {
+      "name": "Mubarrid Albar",
+      "email": "mubarrid.albar@gmail.com"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Bunnypro\\Zenziva\\": "src/"
