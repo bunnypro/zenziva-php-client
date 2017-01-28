@@ -1,9 +1,10 @@
 {
   "name": "bunnypro/zenziva-php-client",
   "description": "Zenziva PHP Client Service.",
-  "keywords": ["zenziva", "zenziva client", "zenziva laravel"],
+  "keywords": ["zenziva", "laravel", "notification", "sms"],
   "license": "MIT",
   "type": "library",
+  "homepage": "https://packages.bunnypro.com/",
   "autoload": {
     "psr-4": {
       "Bunnypro\\Zenziva\\": "src/"
