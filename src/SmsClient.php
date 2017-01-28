@@ -1,8 +1,5 @@
 <?php namespace Bunnypro\Zenziva;
 
-use Bunnypro\Zenziva\Exceptions\PassNotDefinedException;
-use Bunnypro\Zenziva\Exceptions\ServiceNotDefined;
-use Bunnypro\Zenziva\Exceptions\UserNotDefinedException;
 use GuzzleHttp\Client as GuzzleHttpClient;
 
 class SmsClient
